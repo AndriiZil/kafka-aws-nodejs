@@ -19,12 +19,11 @@
     tar -xvzf ~/Downloads/kafka.tgz --strip 1
 ```
 
-### Start
-- Start Zookeeper
+### Start Zookeeper
 ```bash
     bin/zookeeper-server-start.sh config/zookeeper.properties
 ```
-- Start Kafka Broker
+### Start Kafka Broker
 - Before start make changes in `config/server.properties`
 ```bash
     nano config/server.properties
